@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>building</title>
+        <script type="text/javascript" src="snap.svg.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
+
+        <script type="text/javascript" src="disenyo.js"></script>
+		<script type="text/javascript" src="disenyo.module.primary.js"></script>
+        <script type="text/javascript" src="disenyo.module.text.js"></script>
+    </head>
+    <body>
+        <style>
+        #dashboard{
+            display: inline-block;
+        }
+        #page{
+            display: inline-block;
+            vertical-align: top;
+        }
+        </style>
+        <div id="desk"></div>
+		<div id="wrapForm"></div>
+
+
+    <script>
+
+
+
+        //var board = Snap("#board");
+        //var wrapControl = board.rect(100,100,50,50);
+
+        disenyo.create('desk');
+        disenyo.addButton('text');
+    </script>
+    </body>
+</html>
